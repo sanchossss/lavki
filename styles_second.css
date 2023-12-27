@@ -1,0 +1,44 @@
+body{
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+.title{
+    font-family: Arial;
+    font-size: 48px;
+    font-weight: 700;
+}
+img{
+    border-radius: 40px;
+}
+.buttons{
+    display: flex;
+    padding: 60px;
+    gap:40px;
+}
+button, a{
+    font-family: Arial;
+    color:white;
+    background: rgb(211, 42, 90);
+    padding: 20px 60px;
+    border: 2px red;
+    border-radius: 20px;
+    font-size: 24px;
+    transition: all 0.2s;
+    position: relative;
+    left: unset;
+    top: unset;
+    cursor:pointer;
+    text-decoration: none;
+}
+button:hover, a:hover{
+    background: rgb(245, 56, 109);
+    scale:calc(1.05)
+}
