@@ -1,3 +1,4 @@
+/* комент для работы */
 function buttonMove(){
     let button = document.getElementById('move');
     button.addEventListener('mouseover', (e) => {
